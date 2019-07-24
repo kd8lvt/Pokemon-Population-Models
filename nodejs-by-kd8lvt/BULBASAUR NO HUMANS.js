@@ -2,7 +2,7 @@ const Population = require('./Population.js');
 
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const thisCsv = createCsvWriter({
-	path:'./bulbasaur_no_humans.csv',
+	path:'./web/bulbasaur_no_humans.csv',
 	header: [
 		{id:'tick',title:'tick'},
 		{id:'females',title:'females'},
